@@ -615,8 +615,6 @@ a:focus {
 }
 
 .container {
-  padding-top: 130px;
-  margin-top: 30px;
   margin-right: auto;
   margin-left: auto;
   *zoom: 1;
@@ -3057,11 +3055,6 @@ table th[class*="span"],
   display: block;
 }
 
-.navbar .navbar-inverse .navbar-fixed-top{
-  background-color: #961A26;
-  background-image: linear-gradient(to bottom, #961A26, #961A26);
-}
-
 .dropup .dropdown-submenu > .dropdown-menu {
   top: auto;
   bottom: 0;
@@ -4380,12 +4373,12 @@ input[type="submit"].btn.btn-mini {
   min-height: 40px;
   padding-right: 20px;
   padding-left: 20px;
-  /*background-color: #fafafa;
+  background-color: #fafafa;
   background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));
   background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
-  background-image: -o-linear-gradient(top, #ffffff, #f2f2f2); */
-  background-image: linear-gradient(to bottom, #961A26, #961A26);
+  background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
+  background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
   background-repeat: repeat-x;
   border: 1px solid #d4d4d4;
   -webkit-border-radius: 4px;
@@ -4798,15 +4791,15 @@ input[type="submit"].btn.btn-mini {
 }
 
 .navbar-inverse .navbar-inner {
-  /*background-color: #1b1b1b;
+  background-color: #1b1b1b;
   background-image: -moz-linear-gradient(top, #222222, #111111);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#222222), to(#111111));
   background-image: -webkit-linear-gradient(top, #222222, #111111);
-  background-image: -o-linear-gradient(top, #222222, #111111); 
-  background-image: linear-gradient(to bottom, #961A26, #961A26);
-  background-repeat: repeat-x; 
-  border-color: #252525; */
-  /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0); */
+  background-image: -o-linear-gradient(top, #222222, #111111);
+  background-image: linear-gradient(to bottom, #222222, #111111);
+  background-repeat: repeat-x;
+  border-color: #252525;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
 }
 
 .navbar-inverse .brand,
@@ -6120,25 +6113,25 @@ a.badge:focus {
   margin: 0 0 5px;
 }
 
-
 .carousel-caption p {
   margin-bottom: 0;
 }
 
+/*
 .hero-unit {
+  background-image: url(../img/highgrill1.png);
   padding: 60px;
-  padding-top: 150px;
   margin-bottom: 30px;
   font-size: 18px;
   font-weight: 200;
   line-height: 30px;
- /*  color: inherit;
-  background-color: #eeeeee; */
-  background-image: url('http://blogs.babble.com/family-kitchen/files/2010/06/brats-on-the-grill.jpg');
+  color: inherit;
+  background-color: #eeeeee;
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;
 }
+*/
 
 .hero-unit h1 {
   margin-bottom: 0;
