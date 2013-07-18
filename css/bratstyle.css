@@ -12,3 +12,28 @@
      -moz-border-radius: 6px;
           border-radius: 6px;
 }
+
+.hero-unit li {
+  line-height: 20px;
+  font-size: 15px;
+
+}
+
+#wishlist {
+  background-image: url(../img/angelsnbrats.jpg);
+  background-repeat: repeat-y;
+}
+
+#wishlist p {
+font-size: 15px;
+font-weight: 300px;
+}
+
+#menuhero {
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+}
+
+#cashmoney {
+ margin-left: 25px;
+}
